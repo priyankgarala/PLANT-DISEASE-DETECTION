@@ -4,8 +4,8 @@ from tensorflow import keras
 # ... (rest of the code remains the same)
 
 # Load the dataset
-train_dir = r'C:\Users\priya\Downloads\archive (2)\PlantVillage'
-test_dir = r'C:\Users\priya\Downloads\archive (2)\PlantVillage'
+train_dir = r'\PlantVillage'
+test_dir = r'\PlantVillage'
 train_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 test_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 
