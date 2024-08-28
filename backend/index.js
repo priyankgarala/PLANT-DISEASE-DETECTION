@@ -9,7 +9,7 @@ app.post('/predict', upload.single('image'), (req, res) => {
   const image = req.file;
 
   // Load the model
-  const model = tensorflow.loadLayersModel('C:/Users/priya/OneDrive/Desktop/code/reactprojects/pdds/python/train_model.py');
+  const model = tensorflow.loadLayersModel('/python/train_model.py');
 
   // Preprocess the image
   const img = tensorflow.tensor3d(image.buffer, [image.height, image.width, 3]);
