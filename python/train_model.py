@@ -1,7 +1,6 @@
 from tensorflow import keras
 
 
-# ... (rest of the code remains the same)
 
 # Load the dataset
 train_dir = r'\PlantVillage'
